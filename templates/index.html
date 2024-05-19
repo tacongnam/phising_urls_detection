@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phising URLs</title>'
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>'
+</head>
+
+<body>
+    <div class="container forget-password">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="text-center">
+                            <h2 class="text-center">Don't Trust Your Link?</h2>
+                            <p>You can check your link's credential here.</p>
+                            <form id="register-form" role="form" autocomplete="off" class="form" method="post">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <select class="form-control" id="sel1" name="model_selected">
+                                            <option selected="true" disabled="disabled">Please Select Your Model
+                                            </option>
+                                            <option>DecisionTree</option>
+                                            <option>RandomForest</option>
+                                            <option>NaiveBayes</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i
+                                                class="glyphicon glyphicon-envelope color-blue"></i></span>
+                                        <input id="forgetAnswer" name="url_input" placeholder="URL"
+                                            class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input name="btnForget" class="btn btn-lg btn-primary btn-block btnForget"
+                                        value="CHECK LINK" type="submit">
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
